@@ -18,4 +18,5 @@ sueldos.
 10. Creen la siguiente oración "El sueldo del [cargo] [nombre] en [mes] fue de [monto]."
 para cada uno de los datos.
 
-El script debe ser reproducible.
+El script debe ser reproducible. Está configurado para ejecutarse automáticamente
+cada vez que suben el código a GitHub.
