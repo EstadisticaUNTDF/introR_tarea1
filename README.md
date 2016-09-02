@@ -22,4 +22,17 @@ para cada uno de los datos. Punto extra si agregan el signo `$` sin espacios
 por delante del monto.
 
 El script debe ser reproducible. Está configurado para ejecutarse automáticamente
-cada vez que suben el código a GitHub.
+cada vez que suben el código a GitHub. Entren en [app.wercker.com](https://app.wercker.com),
+en la página de login pongan *LOGIN WITH GITHUB* (Quizá los redireccione a GitHub
+para confirmar.). Luego ponen `Create` -> `Application`. 
+
+1. Eligen el repositorio, será `EstadisticaUNTDF/tarea-1-su_usuario`. 
+Clic en `Use selected Repo`
+2. Dejan la opción por defecto. Clic en `Next`
+3. Dejan sin marcar la casilla. Cilc en `Finish`
+
+Ahora, la próxima vez que suban sus cambios a GitHub se realizará una prueba
+automática sobre el código. Si dice *broken* en Wercker es que algo salió
+mal y les manda un correo si sale mal.
+
+
