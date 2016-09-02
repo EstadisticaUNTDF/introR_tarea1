@@ -17,4 +17,4 @@ if (!file.exists(fil)) download.file(URL, fil)
 
 data <- read.csv(fil, encoding = "UTF-8")
 names(data) <- sub("X\\.U\\.FEFF\\.", "", names(data))
-write.csv(data, fil, row.names = FALSE)
+write.csv(data, fil, row.names = FALSE, fileEncoding = "UTF-8")
