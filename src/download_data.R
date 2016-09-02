@@ -1,6 +1,6 @@
 ## Download data
 ## Probamos si está instaldo crankr y sino lo instalamos
-if(!require("ckanr", quietly = TRUE, warn.conflicts = FALSE)){
+if (!require("ckanr", quietly = TRUE, warn.conflicts = FALSE)) {
   install.packages("ckanr")
   library("ckanr")
 }
